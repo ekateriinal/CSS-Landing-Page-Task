@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Overpass:wght@400;700&display=swap");
+html, body {
+  overflow: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  -webkit-box-shadow: 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.grid-container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  grid-auto-flow: column;
+}
+
+.left {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.right {
+  height: 95%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  -ms-grid-row-align: center;
+      align-self: center;
+  background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+}
+
+.form-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  color: #252F40;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-tip {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #67748E;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.form-input {
+  position: relative;
+  margin-bottom: 17px;
+  border: 1px solid #D2D6DA;
+  border-radius: 8px;
+}
+
+.box {
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 7px;
+  margin: 13px;
+}
+
+.form-button {
+  background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+  color: #FFF;
+  width: 100%;
+  height: 47px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 7px;
+  padding: 14px;
+  margin-top: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+}
+
+.right-content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: start;
+}
+
+.title {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 77px;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  margin-top: 0;
+  max-width: 555px;
+  color: #FFF;
+}
+/*# sourceMappingURL=style.css.map */
